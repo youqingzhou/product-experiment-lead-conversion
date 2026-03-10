@@ -20,6 +20,7 @@ The notebook demonstrates common workflows used by Product Data Scientists, incl
 - Logistic regression modeling
 - CUPED variance reduction
 - ML-based CUPAC adjustment
+- Power analysis for experiment design
 
 ---
 
