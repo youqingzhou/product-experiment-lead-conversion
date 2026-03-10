@@ -171,18 +171,23 @@ Variance reduction techniques further improve estimation precision.
 
 ---
 
-# Interpretation
+# Business Interpretation
 
-The simulated results suggest that the treatment meaningfully improves lead engagement and downstream conversions.
+A +1.5 percentage point increase in closed conversion can have meaningful business impact.
 
-In a real marketplace platform, this type of improvement could translate to:
+If the platform processes **1 million leads per month**:
 
-- increased transactions
-- improved marketplace liquidity
-- higher platform revenue
+additional closed deals  
+= 1,000,000 × (0.045 − 0.030)  
+= 15,000 deals  
 
-The experiment demonstrates how product data scientists can combine experimentation, modeling, and variance reduction techniques to make more efficient product decisions.
+If the average commission per deal is **$200**, this corresponds to:
 
+estimated incremental revenue  
+= 15,000 × $200  
+= $3M per month  
+
+---
 ---
 
 # Reproducibility
