@@ -41,10 +41,10 @@ Conversion probabilities are generated using logistic models.
 
 For example, the probability of a lead responding is modeled as:
 
-$$
-P(\text{responded}_i = 1) =
-\sigma(\beta_0 + \beta_1 \cdot \text{lead\_quality}_i + \beta_2 \cdot \text{treatment}_i)
-$$
+```math
+P(\mathrm{responded}_i = 1) =
+\sigma(\beta_0 + \beta_1 \cdot \mathrm{lead\_quality}_i + \beta_2 \cdot \mathrm{treatment}_i)
+```
 
 where
 
@@ -56,10 +56,10 @@ is the logistic function.
 
 Later funnel stages depend on earlier outcomes. For example:
 
-$$
-P(\text{appointment}_i = 1) =
-\sigma(\alpha_0 + \alpha_1 \cdot \text{lead\_quality}_i + \alpha_2 \cdot \text{baseline\_skill}_i + \alpha_3 \cdot \text{treatment}_i)
-$$
+```math
+P(\mathrm{appointment}_i = 1) =
+\sigma(\alpha_0 + \alpha_1 \cdot \mathrm{lead\_quality}_i + \alpha_2 \cdot \mathrm{baseline\_skill}_i + \alpha_3 \cdot \mathrm{treatment}_i)
+```
 
 conditional on the lead having responded.
 
