@@ -67,6 +67,25 @@ This structure mimics common marketplace conversion pipelines.
 
 ---
 
+# Power Analysis
+
+Before running large-scale experiments, teams typically estimate the required sample size to ensure sufficient statistical power.
+
+Given a baseline close rate of 3.0% and an expected treatment uplift to 4.5%, we compute the minimum sample size required to detect this effect with:
+
+- significance level α = 0.05  
+- power = 0.80  
+
+The required sample size can be approximated using the standard two-proportion power calculation:
+
+$$
+n = \frac{(z_{1-\alpha/2}+z_{1-\beta})^2(p_1(1-p_1)+p_2(1-p_2))}{(p_2-p_1)^2}
+$$
+
+This step mirrors the planning stage of real-world experimentation platforms where teams estimate traffic requirements before launching experiments.
+
+---
+
 # Estimating Treatment Effects
 
 The primary metric of interest is the treatment effect on **closed deals**.
