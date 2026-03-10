@@ -91,6 +91,24 @@ Uses a machine learning prediction model with cross-fitting to generate covariat
 
 ---
 
+## Business Impact
+
+The experiment increases the close rate from **3.0% → 4.5%**.
+
+For a marketplace processing **1M leads per month**, this corresponds to:
+
+additional closed deals  
+= 1,000,000 × (0.045 − 0.030)  
+= **15,000 deals**
+
+If the average commission per transaction is **$200**, the estimated revenue uplift is:
+
+estimated revenue impact  
+= 15,000 × $200  
+= **$3M per month**
+
+--
+
 # Running the Notebook
 
 You can run the analysis interactively using Binder.
